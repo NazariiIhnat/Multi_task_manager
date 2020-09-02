@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="mul_task_manager@db4free.net" uuid="7b02645d-29d8-4cee-a8d6-e68239175570">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="MYSQL" exact-version="0" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>nazarii</user-name>
+    </data-source>
+  </component>
+</project>
