@@ -64,11 +64,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+            <state relative-caret-position="170">
+              <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dao/AbstractEntitiesDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="127">
+              <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#0#44#1" expanded="true" />
+                <element signature="e#0#44#1" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -76,7 +90,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
+            <state relative-caret-position="289">
               <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -85,11 +99,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/work/main/MainFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-687">
-              <caret line="51" column="51" lean-forward="true" selection-start-line="51" selection-start-column="51" selection-end-line="51" selection-end-column="51" />
+            <state relative-caret-position="-7">
+              <caret line="25" column="29" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -100,7 +114,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/utils/TableRefresher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="965">
+            <state relative-caret-position="1173">
               <caret line="88" column="119" selection-start-line="88" selection-start-column="119" selection-end-line="88" selection-end-column="119" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -234,57 +248,6 @@
             <path>
               <item name="MultiTaskManager" type="b2602c69:ProjectViewProjectNode" />
               <item name="MultiTaskManager" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MultiTaskManager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MultiTaskManager" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MultiTaskManager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MultiTaskManager" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MultiTaskManager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MultiTaskManager" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MultiTaskManager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MultiTaskManager" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="work" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MultiTaskManager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MultiTaskManager" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="work" type="462c0819:PsiDirectoryNode" />
-              <item name="boss_mode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MultiTaskManager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MultiTaskManager" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="work" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MultiTaskManager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MultiTaskManager" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -601,12 +564,13 @@
       <workItem from="1598894056500" duration="7177000" />
       <workItem from="1598972994725" duration="9781000" />
       <workItem from="1599021791987" duration="1042000" />
-      <workItem from="1599075643177" duration="710000" />
+      <workItem from="1599075643177" duration="1048000" />
+      <workItem from="1599213065220" duration="515000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="515703000" />
+    <option name="totallyTimeSpent" value="516556000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -620,7 +584,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28441754" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28895614" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -649,7 +613,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" weight="0.32980332" />
+      <window_info anchor="right" id="Maven" order="5" visible="true" weight="0.32980332" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Database" order="8" weight="0.32980332" />
@@ -739,13 +703,6 @@
     </ignored-roots>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/logout/Logout.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/Study/Remote db connection/Connection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -901,13 +858,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Study/(db4free)hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="16" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/work/boss_mode/delete/TaskDeleter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -946,13 +896,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4624">
           <caret line="123" column="19" selection-start-line="123" selection-start-column="19" selection-end-line="123" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Study/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="26" lean-forward="true" selection-end-line="17" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -1004,18 +947,6 @@
             <element signature="imports" expanded="true" />
             <element signature="e#0#84#1" expanded="true" />
             <element signature="e#0#64#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/AbstractEntitiesDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="84" selection-start-line="84" selection-end-line="84" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#0#44#1" expanded="true" />
-            <element signature="e#0#44#1" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1092,16 +1023,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
+        <state relative-caret-position="289">
           <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1111,7 +1035,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/utils/TableRefresher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="965">
+        <state relative-caret-position="1173">
           <caret line="88" column="119" selection-start-line="88" selection-start-column="119" selection-end-line="88" selection-end-column="119" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1123,11 +1047,51 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/work/main/MainFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-687">
-          <caret line="51" column="51" lean-forward="true" selection-start-line="51" selection-start-column="51" selection-end-line="51" selection-end-column="51" />
+        <state relative-caret-position="-7">
+          <caret line="25" column="29" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Study/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="26" lean-forward="true" selection-end-line="17" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Study/(db4free)hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="8" selection-end-line="18" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.4.10.Final/hibernate-core-5.4.10.Final-sources.jar!/org/hibernate/dialect/MySQL5Dialect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/AbstractEntitiesDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#0#44#1" expanded="true" />
+            <element signature="e#0#44#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
         </state>
       </provider>
     </entry>
