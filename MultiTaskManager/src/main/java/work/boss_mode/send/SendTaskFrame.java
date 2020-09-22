@@ -6,16 +6,17 @@ import javax.swing.*;
 
 import org.springframework.stereotype.Component;
 import utils.Settings;
-import utils.Watermarker;
 import work.boss_mode.BossTaskMenageFrame;
 import work.custom.components.CustomFrame;
 import work.custom.components.DatePicker;
+import work.custom.components.WatermarkTextArea;
+import work.custom.components.WatermarkTextField;
 
 @Component
 public class SendTaskFrame extends CustomFrame {
 
-    private JTextField titleTextField;
-    private JTextArea descriptionTextArea;
+    private WatermarkTextField titleTextField;
+    private WatermarkTextArea descriptionTextArea;
     private DatePicker datePicker;
     private JButton sendButton;
     private BossTaskMenageFrame bossTaskMenageFrame;
@@ -33,17 +34,15 @@ public class SendTaskFrame extends CustomFrame {
         datePicker.setBounds(266, 36, 234, 215);
         add(datePicker);
 
-        titleTextField = new JTextField();
+        titleTextField = new WatermarkTextField("Title");
         titleTextField.setBounds(10, 36, 246, 22);
-        Watermarker.addWatermarkToTextComponentWhenLostFocus(titleTextField, "Title");
         add(titleTextField);
 
         JScrollPane descriptionTextAreaScrollPane = new JScrollPane();
         descriptionTextAreaScrollPane.setBounds(10, 73, 246, 144);
         add(descriptionTextAreaScrollPane);
 
-        descriptionTextArea = new JTextArea();
-        Watermarker.addWatermarkToTextComponentWhenLostFocus(descriptionTextArea, "Description");
+        descriptionTextArea = new WatermarkTextArea("Description");
         descriptionTextAreaScrollPane.setViewportView(descriptionTextArea);
 
         sendButton = new JButton("SEND");
@@ -52,6 +51,7 @@ public class SendTaskFrame extends CustomFrame {
 
         setWatermarksToTextComponents();
         setLocationRelativeTo(getOwner());
+        getContentPane().setFocusable(true);
     }
 
     private void setWatermarksToTextComponents() {

@@ -3,8 +3,9 @@ package work.main.add;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import utils.Settings;
-import utils.Watermarker;
 import work.custom.components.CustomFrame;
+import work.custom.components.WatermarkTextArea;
+import work.custom.components.WatermarkTextField;
 import work.main.MainFrame;
 
 import javax.swing.*;
@@ -13,8 +14,8 @@ import javax.swing.*;
 public class TaskAddFrame extends CustomFrame {
 
     private MainFrame mainFrame;
-    private JTextField titleTextField;
-    private JTextArea descriptionTextArea;
+    private WatermarkTextField titleTextField;
+    private WatermarkTextArea descriptionTextArea;
     private JButton okButton;
 
     @Autowired
@@ -26,22 +27,15 @@ public class TaskAddFrame extends CustomFrame {
 
     private void initComponents() {
 
-        titleTextField = new JTextField();
+        titleTextField = new WatermarkTextField("Title");
         titleTextField.setBounds(10, 36, 246, 22);
-        titleTextField.setForeground(Settings.WATERMARK_TEXT_COLOR);
-        titleTextField.setText("Title");
-        Watermarker.addWatermarkToTextComponentWhenLostFocus(titleTextField, "Title");
         add(titleTextField);
-        titleTextField.setColumns(10);
 
         JScrollPane scrollPane = new JScrollPane();
         scrollPane.setBounds(10, 71, 246, 177);
         add(scrollPane);
 
-        descriptionTextArea = new JTextArea();
-        descriptionTextArea.setForeground(Settings.WATERMARK_TEXT_COLOR);
-        descriptionTextArea.setText("Description");
-        Watermarker.addWatermarkToTextComponentWhenLostFocus(descriptionTextArea, "Description");
+        descriptionTextArea = new WatermarkTextArea("Description");
         scrollPane.setViewportView(descriptionTextArea);
 
         okButton = new JButton("OK");

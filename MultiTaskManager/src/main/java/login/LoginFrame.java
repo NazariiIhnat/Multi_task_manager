@@ -1,17 +1,17 @@
 package login;
 
-import utils.Settings;
-import utils.Watermarker;
 import org.springframework.stereotype.Component;
 import work.custom.components.CustomFrame;
+import work.custom.components.WatermarkPasswordField;
+import work.custom.components.WatermarkTextField;
 
 import javax.swing.*;
 
 @Component
 public class LoginFrame extends CustomFrame {
 
-    private JTextField nicknameTextField;
-    private JPasswordField passwordField;
+    private WatermarkTextField nicknameTextField;
+    private WatermarkPasswordField passwordField;
     private JButton loginButton;
     private JButton registerButton;
 
@@ -22,14 +22,11 @@ public class LoginFrame extends CustomFrame {
     }
 
     private void initComponents() {
-        nicknameTextField = new JTextField();
-        Watermarker.addWatermarkToTextComponentWhenLostFocus(nicknameTextField, "Nickname");
+        nicknameTextField = new WatermarkTextField("Nickname");
         nicknameTextField.setBounds(10, 36, 190, 20);
-        nicknameTextField.setColumns(10);
         add(nicknameTextField);
 
-        passwordField = new JPasswordField();
-        Watermarker.addWatermarkToPasswordFieldWhenLostFocus(passwordField, "Password");
+        passwordField = new WatermarkPasswordField("Password");
         passwordField.setBounds(10, 67, 190, 20);
         add(passwordField);
 
@@ -41,25 +38,22 @@ public class LoginFrame extends CustomFrame {
         registerButton.setBounds(113, 98, 87, 23);
         add(registerButton);
 
-        setLocationRelativeTo(getOwner());
-        setWaterMarkTextToFields();
+        setWatermarksToFields();
         setVisible(true);
+        setLocationRelativeTo(getOwner());
         getContentPane().setFocusable(true);
     }
 
-    private void setWaterMarkTextToFields() {
-        nicknameTextField.setForeground(Settings.WATERMARK_TEXT_COLOR);
-        nicknameTextField.setText("Nickname");
-        passwordField.setEchoChar((char)0);
-        passwordField.setForeground(Settings.WATERMARK_TEXT_COLOR);
-        passwordField.setText("Password");
+    void setWatermarksToFields() {
+        nicknameTextField.setWatermark();
+        passwordField.setWatermark();
     }
 
     public void showFrame() {
         setVisible(true);
         toFront();
+        setWatermarksToFields();
         setLocationRelativeTo(getOwner());
-        setWaterMarkTextToFields();
         getContentPane().setFocusable(true);
     }
 

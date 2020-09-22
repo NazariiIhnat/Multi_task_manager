@@ -4,12 +4,13 @@ import javax.swing.*;
 
 import com.github.lgooddatepicker.components.*;
 import entities.Task;
+import utils.Settings;
 
 public abstract class UpdateFrame extends CustomFrame {
 
     private DatePicker datePicker;
-    private JTextField titleTextField;
-    private JTextArea descriptionTextArea;
+    private WatermarkTextField titleTextField;
+    private WatermarkTextArea descriptionTextArea;
     private JButton saveButton;
 
     public UpdateFrame() {
@@ -27,7 +28,7 @@ public abstract class UpdateFrame extends CustomFrame {
         saveButton.setBounds(209, 266, 89, 23);
         add(saveButton);
 
-        titleTextField = new JTextField();
+        titleTextField = new WatermarkTextField("Title");
         titleTextField.setBounds(10, 36, 243, 20);
         add(titleTextField);
         titleTextField.setColumns(10);
@@ -36,7 +37,7 @@ public abstract class UpdateFrame extends CustomFrame {
         scrollPane.setBounds(10, 67, 243, 184);
         add(scrollPane);
 
-        descriptionTextArea = new JTextArea();
+        descriptionTextArea = new WatermarkTextArea("Description");
         scrollPane.setViewportView(descriptionTextArea);
         setLocationRelativeTo(getOwner());
     }
@@ -53,6 +54,12 @@ public abstract class UpdateFrame extends CustomFrame {
         descriptionTextArea.setText(task.getDescription());
     }
 
+    public void setVisible(boolean flag) {
+        super.setVisible(flag);
+        this.titleTextField.setForeground(Settings.TEXT_COLOR);
+        this.descriptionTextArea.setForeground(Settings.TEXT_COLOR);
+    }
+
     protected JButton getSaveButton() {
         return saveButton;
     }
@@ -61,11 +68,11 @@ public abstract class UpdateFrame extends CustomFrame {
         return datePicker;
     }
 
-    protected JTextField getTitleTextField() {
+    protected WatermarkTextField getTitleTextField() {
         return titleTextField;
     }
 
-    protected JTextArea getDescriptionTextArea() {
+    protected WatermarkTextArea getDescriptionTextArea() {
         return descriptionTextArea;
     }
 }

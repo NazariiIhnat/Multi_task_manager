@@ -48,17 +48,15 @@ public class TaskUpdater extends UpdateFrame {
         return new AbstractAction() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                readChanges();
-                if(taskAfterModifying.getTitle().split(" ").length == 0
-                        || taskAfterModifying.getTitle().isEmpty())
+                if(getTitleTextField().isEmpty())
                     ShowMessage.error("Title can not be empty.");
-                else if (taskAfterModifying.getDescription().split(" ").length == 0
-                        || taskAfterModifying.getDescription().isEmpty())
+                else if (getDescriptionTextArea().isEmpty())
                     ShowMessage.error("Description can not be empty.");
                 else {
+                    readChanges();
                     TaskDAO.saveOrUpdate(taskAfterModifying);
-                    closeUpdateTaskFrame();
-                    clearFields();
+                    closeAction();
+                    //clearFields();
                     TableRefresher.refreshOwnTaskTable();
                 }
             }
@@ -72,15 +70,10 @@ public class TaskUpdater extends UpdateFrame {
         taskAfterModifying.setDate(getCalendarPanel().getSelectedDate());
     }
 
-    private void closeUpdateTaskFrame() {
-        setVisible(false);
-        mainFrame.setEnabled(true);
-        mainFrame.toFront();
-    }
-
     @Override
     public void closeAction() {
-        closeUpdateTaskFrame();
+        dispose();
         mainFrame.setEnabled(true);
+        mainFrame.toFront();
     }
 }
