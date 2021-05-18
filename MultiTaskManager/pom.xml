@@ -4,10 +4,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>groupId</groupId>
-    <artifactId>MultiTaskManager</artifactId>
+    <groupId>com.nazarii.joji</groupId>
+    <artifactId>joji</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <packaging>jar</packaging>
+    <modules>
+        <module>database</module>
+    </modules>
+    <packaging>pom</packaging>
     <build>
         <plugins>
             <plugin>
@@ -72,18 +75,6 @@
             <version>5.1.8.RELEASE</version>
         </dependency>
 
-        <dependency>
-            <groupId>org.hibernate</groupId>
-            <artifactId>hibernate-core</artifactId>
-            <version>5.4.10.Final</version>
-        </dependency>
-
-        <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-            <version>8.0.18</version>
-        </dependency>
-
         <!-- https://mvnrepository.com/artifact/org.xerial/sqlite-jdbc -->
         <dependency>
             <groupId>org.xerial</groupId>
@@ -107,6 +98,12 @@
             <groupId>com.formdev</groupId>
             <artifactId>flatlaf</artifactId>
             <version>0.23.1</version>
+        </dependency>
+        <dependency>
+            <groupId>com.nazarii.joji</groupId>
+            <artifactId>database</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
 

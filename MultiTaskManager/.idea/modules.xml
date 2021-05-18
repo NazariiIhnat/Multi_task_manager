@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/MultiTaskManager.iml" filepath="$PROJECT_DIR$/MultiTaskManager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Joji.iml" filepath="$PROJECT_DIR$/Joji.iml" />
+      <module fileurl="file://$PROJECT_DIR$/database/database.iml" filepath="$PROJECT_DIR$/database/database.iml" />
+      <module fileurl="file://$PROJECT_DIR$/joji.iml" filepath="$PROJECT_DIR$/joji.iml" />
     </modules>
   </component>
 </project>
