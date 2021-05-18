@@ -6,11 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="MultiTaskManager" />
+        <module name="database" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="MultiTaskManager" target="8" />
+      <module name="database" target="8" />
+      <module name="joji" target="8" />
+      <module name="Joji" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>
