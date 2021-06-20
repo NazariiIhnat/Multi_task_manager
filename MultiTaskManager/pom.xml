@@ -7,16 +7,18 @@
     <groupId>com.nazarii.joji</groupId>
     <artifactId>joji</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
     <modules>
         <module>database</module>
+        <module>gui</module>
+        <module>backend</module>
     </modules>
-    <packaging>pom</packaging>
     <build>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-shade-plugin</artifactId>
-                <version>3.2.1</version>
+                <version>3.2.2</version>
                 <executions>
                     <execution>
                         <phase>package</phase>
@@ -26,7 +28,7 @@
                         <configuration>
                             <transformers>
                                 <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                                    <mainClass>Main</mainClass>
+                                    <mainClass>Start</mainClass>
                                 </transformer>
                             </transformers>
                         </configuration>
@@ -36,6 +38,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.1</version>
                 <configuration>
                     <source>8</source>
                     <target>8</target>
@@ -98,12 +101,6 @@
             <groupId>com.formdev</groupId>
             <artifactId>flatlaf</artifactId>
             <version>0.23.1</version>
-        </dependency>
-        <dependency>
-            <groupId>com.nazarii.joji</groupId>
-            <artifactId>database</artifactId>
-            <version>1.0-SNAPSHOT</version>
-            <scope>compile</scope>
         </dependency>
     </dependencies>
 
