@@ -2,109 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbd34fb0-f408-4d0d-acf3-b0a293a93345" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/backend/backend.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gui/gui.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/database.iml" beforeDir="false" afterPath="$PROJECT_DIR$/database/database.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/database/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dependency-reduced-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dependency-reduced-pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/joji.iml" beforeDir="false" afterPath="$PROJECT_DIR$/joji.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Configs.java" beforeDir="false" afterPath="$PROJECT_DIR$/gui/src/main/java/GUIComponentsScan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/Start.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/login/LoginAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/login/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/login/LoginFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/gui/src/main/java/login/LoginFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/login/ShowRegistrationFrameAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/registration/ShowRegistrationFrameAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/logout/Logout.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/logout/Logout.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/registration/RegistrationAction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/registration/RegistrationFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/gui/src/main/java/registration/RegistrationFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/registration/validation/InputValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/registration/InputValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/gui/src/main/java/test/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/InputVerifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/gui/src/main/java/utils/InputVerifier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/Settings.java" beforeDir="false" afterPath="$PROJECT_DIR$/gui/src/main/java/components/Colors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/ShowMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/gui/src/main/java/utils/ShowMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/TableRefresher.java" beforeDir="false" afterPath="$PROJECT_DIR$/gui/src/main/java/utils/TableRefresher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/work/boss_mode/BossModeEnabler.java" beforeDir="false" afterPath="$PROJECT_DIR$/gui/src/main/java/work/boss_mode/BossModeEnabler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/work/boss_mode/BossModeTaskTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/gui/src/main/java/work/boss_mode/BossModeTaskTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/work/boss_mode/BossTaskMenageFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/gui/src/main/java/work/boss_mode/BossTaskMenageFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/work/boss_mode/delete/TaskDeleter.java" beforeDir="false" afterPath="$PROJECT_DIR$/gui/src/main/java/work/boss_mode/delete/TaskDeleter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/work/boss_mode/send/SendTaskFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/gui/src/main/java/work/boss_mode/send/SendTaskFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/work/boss_mode/send/TaskSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/gui/src/main/java/work/boss_mode/send/TaskSender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/work/boss_mode/update/TaskUpdater.java" beforeDir="false" afterPath="$PROJECT_DIR$/gui/src/main/java/work/boss_mode/update/TaskUpdater.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/work/custom/components/AbstractTaskTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/gui/src/main/java/components/custom/AbstractTaskTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/work/custom/components/Closeable.java" beforeDir="false" afterPath="$PROJECT_DIR$/gui/src/main/java/components/custom/Closeable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/work/custom/components/CustomFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/gui/src/main/java/components/custom/CustomFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/work/custom/components/DatePicker.java" beforeDir="false" afterPath="$PROJECT_DIR$/gui/src/main/java/components/custom/DatePicker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/work/custom/components/PasswordWatermarker.java" beforeDir="false" afterPath="$PROJECT_DIR$/gui/src/main/java/components/custom/watermark/PasswordWatermarker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/work/custom/components/TablePopupMenuShower.java" beforeDir="false" afterPath="$PROJECT_DIR$/gui/src/main/java/components/custom/TablePopupMenuShower.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/work/custom/components/UpdateFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/gui/src/main/java/components/custom/UpdateFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/work/custom/components/WatermarkPasswordField.java" beforeDir="false" afterPath="$PROJECT_DIR$/gui/src/main/java/components/custom/watermark/WatermarkPasswordField.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/work/custom/components/WatermarkTextArea.java" beforeDir="false" afterPath="$PROJECT_DIR$/gui/src/main/java/components/custom/watermark/WatermarkTextArea.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/work/custom/components/WatermarkTextField.java" beforeDir="false" afterPath="$PROJECT_DIR$/gui/src/main/java/components/custom/watermark/WatermarkTextField.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/work/custom/components/Watermarker.java" beforeDir="false" afterPath="$PROJECT_DIR$/gui/src/main/java/components/custom/watermark/Watermarker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/work/main/MainFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/gui/src/main/java/work/main/MainFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/work/main/OwnTaskTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/gui/src/main/java/work/main/OwnTaskTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/work/main/add/TaskAddFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/gui/src/main/java/work/main/add/TaskAddFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/work/main/add/TaskAdder.java" beforeDir="false" afterPath="$PROJECT_DIR$/gui/src/main/java/work/main/add/TaskAdder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/work/main/delete/TaskDeleter.java" beforeDir="false" afterPath="$PROJECT_DIR$/gui/src/main/java/work/main/delete/TaskDeleter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/work/main/update/TaskUpdater.java" beforeDir="false" afterPath="$PROJECT_DIR$/gui/src/main/java/work/main/update/TaskUpdater.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/login/LoginAction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/login/LoginFrame.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/InputVerifier.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/Settings.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/TableRefresher$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/TableRefresher.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/work/boss_mode/BossModeEnabler$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/work/boss_mode/BossModeEnabler$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/work/boss_mode/BossModeEnabler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/work/boss_mode/BossModeTaskTable$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/work/boss_mode/BossModeTaskTable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/work/boss_mode/BossTaskMenageFrame$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/work/boss_mode/BossTaskMenageFrame$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/work/boss_mode/BossTaskMenageFrame$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/work/boss_mode/BossTaskMenageFrame.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/work/boss_mode/send/SendTaskFrame.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/work/boss_mode/update/TaskUpdater$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/work/boss_mode/update/TaskUpdater$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/work/boss_mode/update/TaskUpdater.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/work/custom/components/AbstractTaskTable$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/work/custom/components/AbstractTaskTable$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/work/custom/components/AbstractTaskTable$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/work/custom/components/AbstractTaskTable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/work/custom/components/Closeable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/work/custom/components/CustomFrame$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/work/custom/components/CustomFrame$FrameDragger$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/work/custom/components/CustomFrame$FrameDragger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/work/custom/components/CustomFrame$FrameMinimizer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/work/custom/components/CustomFrame$LabelsPainter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/work/custom/components/CustomFrame.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/work/custom/components/DatePicker$CalendarButtonsAndLabelsPainterExceptDateLabels.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/work/custom/components/DatePicker$DateLabelsPainter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/work/custom/components/DatePicker$PopupMenuShowerOnSelectedDate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/work/custom/components/DatePicker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/work/custom/components/PasswordWatermarker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/work/custom/components/TablePopupMenuShower.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/work/custom/components/UpdateFrame.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/work/custom/components/WatermarkPasswordField.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/work/custom/components/WatermarkTextArea.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/work/custom/components/WatermarkTextField.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/work/custom/components/Watermarker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/work/main/MainFrame$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/work/main/MainFrame.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/work/main/OwnTaskTable$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/work/main/OwnTaskTable$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/work/main/OwnTaskTable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/work/main/add/TaskAddFrame.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/work/main/add/TaskAdder$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/work/main/add/TaskAdder$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/work/main/add/TaskAdder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/work/main/update/TaskUpdater$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/work/main/update/TaskUpdater$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/work/main/update/TaskUpdater.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -178,10 +77,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backend/src/main/java/registration/ShowRegistrationFrameAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
+            <state relative-caret-position="173">
               <caret line="24" column="32" lean-forward="true" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -190,23 +89,16 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gui/src/main/java/work/boss_mode/send/TaskSender.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gui/src/main/java/login/LoginFrame.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
               <caret line="53" column="50" selection-start-line="53" selection-start-column="50" selection-end-line="53" selection-end-column="50" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/src/main/java/BackendComponentsScan.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -820,12 +712,20 @@
       <workItem from="1624178479414" duration="1479000" />
       <workItem from="1624180337880" duration="31000" />
       <workItem from="1624180569978" duration="5558000" />
-      <workItem from="1624215852511" duration="2942000" />
+      <workItem from="1624215852511" duration="3211000" />
     </task>
+    <task id="LOCAL-00001" summary="Created gui and backend modules. All classes from root module moved to &#10;gui module. Separated gui and backend of registration and login to gui &#10;and backend modules.">
+      <created>1624221548451</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1624221548451</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="532318000" />
+    <option name="totallyTimeSpent" value="532587000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -840,7 +740,7 @@
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3260212" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3260212" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -851,19 +751,19 @@
       <window_info anchor="bottom" id="JFormDesigner Error Log" order="0" weight="0.18035427" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32850242" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49924356" visible="true" weight="0.34299517" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49924356" weight="0.34299517" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4009662" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" sideWeight="0.49924356" weight="0.32850242" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50226927" side_tool="true" weight="0.32850242" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5015129" side_tool="true" weight="0.3542673" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4977307" weight="0.32850242" />
       <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.49924356" weight="0.32850242" />
       <window_info anchor="bottom" id="Spring" order="13" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" sideWeight="0.64977306" weight="0.32850242" />
-      <window_info anchor="bottom" id="Messages" order="15" weight="0.3542673" />
+      <window_info anchor="bottom" id="Messages" order="15" sideWeight="0.49848714" weight="0.3542673" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.022692889" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -957,23 +857,15 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
+    <MESSAGE value="Created gui and backend modules. Separated gui and backend of &#10;registration and login to gui and backend modules." />
+    <MESSAGE value="Created gui and backend modules. All classes from root module moved to &#10;gui module. Separated gui and backend of registration and login to gui &#10;and backend modules." />
+    <option name="LAST_COMMIT_MESSAGE" value="Created gui and backend modules. All classes from root module moved to &#10;gui module. Separated gui and backend of registration and login to gui &#10;and backend modules." />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/database/src/main/resources/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-          <folding>
-            <element signature="e#474#479#0" expanded="true" />
-            <element signature="e#506#511#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dependency-reduced-pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-51" />
@@ -1420,13 +1312,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/src/main/java/registration/ShowRegistrationFrameAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
+        <state relative-caret-position="173">
           <caret line="24" column="32" lean-forward="true" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui/src/main/java/work/boss_mode/send/TaskSender.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
