@@ -2,7 +2,6 @@ package components.custom;
 
 import dao.TaskDAO;
 import entities.Task;
-
 import javax.swing.*;
 import javax.swing.event.TableModelEvent;
 import javax.swing.event.TableModelListener;
@@ -80,8 +79,15 @@ public abstract class AbstractTaskTable extends JTable {
 
     public Task getSelectedTask() {
         int selectedRow = this.getSelectedRow();
-        long selectedTaskID = (long) this.getValueAt(selectedRow, 1);
-        return TaskDAO.getTaskByID(selectedTaskID);
+        long selectedTaskID;
+        try{
+            selectedTaskID = (long) this.getValueAt(selectedRow, 1);
+        } catch (ArrayIndexOutOfBoundsException e){
+            selectedTaskID = -1;
+        }
+        if(selectedTaskID >= 0)
+            return TaskDAO.getTaskByID(selectedTaskID);
+        else return null;
     }
 
     public JScrollPane getTaskTableScrollPane() {
@@ -92,7 +98,6 @@ public abstract class AbstractTaskTable extends JTable {
         return new TableModelListener() {
             @Override
             public void tableChanged(TableModelEvent e) {
-
                 int row = e.getFirstRow();
                 int column = e.getColumn();
                 int idColumn = 1;

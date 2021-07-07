@@ -1,6 +1,6 @@
 package components.custom.watermark;
 
-import components.Colors;
+import components.custom.Colors;
 
 import javax.swing.text.JTextComponent;
 import java.awt.event.FocusEvent;
@@ -33,11 +33,11 @@ public class Watermarker implements FocusListener {
         }
     }
 
-    boolean isEmpty(String text) {
-        return text.equals("") || text.split(" ").length == 0;
+    private boolean isEmpty(String text) {
+        return text.split(" ").length == 0 | text.equals("");
     }
 
-    public String getWatermarkText() {
+    String getWatermarkText() {
         return watermarkText;
     }
 }

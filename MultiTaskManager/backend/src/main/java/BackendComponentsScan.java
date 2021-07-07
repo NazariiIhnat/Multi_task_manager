@@ -6,6 +6,7 @@ import org.springframework.context.annotation.Configuration;
 @ComponentScans({
         @ComponentScan("login"),
         @ComponentScan ("logout"),
-        @ComponentScan("registration")})
+        @ComponentScan("registration"),
+        @ComponentScan("task")})
 public class BackendComponentsScan {
 }

@@ -3,39 +3,32 @@ package logout;
 import login.LoginFrame;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-import work.main.MainFrame;
-import javax.swing.*;
+import task.managment.WorkFrame;
 import java.awt.*;
 import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
 
 @Component
-public class Logout {
+public class Logout implements ActionListener {
 
-    private MainFrame mainFrame;
+    private WorkFrame workFrame;
     private LoginFrame loginFrame;
 
     @Autowired
-    public Logout(MainFrame mainFrame, LoginFrame loginFrame) {
-        this.mainFrame = mainFrame;
+    public Logout(WorkFrame workFrame, LoginFrame loginFrame) {
+        this.workFrame = workFrame;
         this.loginFrame = loginFrame;
-        initLogoutMenuItem();
+        workFrame.getMenu().getLogoutMenuItem().addActionListener(this);
     }
 
-    private void initLogoutMenuItem() {
-        JMenuItem logoutItem = new JMenuItem("Logout");
-        logoutItem.addActionListener(new AbstractAction() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                logout();
-            }
-        });
-        mainFrame.addItemToProfileMenu(logoutItem);
-    }
-    private void logout() {
+    @Override
+    public void actionPerformed(ActionEvent e) {
         for(Frame frame : Frame.getFrames())
             frame.dispose();
-        mainFrame.dispose();
-        MainFrame.setLoggedInUser(null);
+        workFrame.dispose();
+        WorkFrame.setLoggedInUser(null);
         loginFrame.showFrame();
     }
 }

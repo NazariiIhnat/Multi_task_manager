@@ -1,87 +1,83 @@
 package components.custom;
 
-import components.Colors;
-
 import javax.swing.*;
 import javax.swing.border.LineBorder;
 import java.awt.*;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 
-public abstract class CustomFrame extends JFrame implements Closeable {
+public abstract class CustomFrame extends JFrame {
 
-    private String frameName;
-    private int frameWidth;
-    private int labelHeight;
+    private static final int UPPER_PANEL_HEIGHT = 25;
     private JPanel contentPane;
+    private JLabel minimizeLabel;
+    private JLabel closeLabel;
+    private JLabel headerLabel;
+    private JPanel upperPanel;
 
     public CustomFrame(String frameName, int x, int y, int width, int height){
         setBounds(x, y, width, height);
+        setName(frameName);
         setTitle(frameName);
         setUndecorated(true);
         setResizable(false);
-        this.contentPane = new JPanel();
+        initContentPane();
+        initHeaderLabel();
+        initMinimizeLabel();
+        initCloseLabel();
+        initUpperPanel();
+    }
+
+    private void initContentPane() {
+        contentPane = new JPanel();
         contentPane.setBorder(new LineBorder(Colors.HIGHLIGHT_COLOR));
         setContentPane(contentPane);
         contentPane.setLayout(null);
+    }
 
-        this.frameName = frameName;
-        JPanel upperPanel = new JPanel();
-        frameWidth = getWidth();
-        labelHeight = 25;
+    private void initHeaderLabel() {
+        headerLabel = new JLabel(getName());
+        headerLabel.setBounds(10, 0, 100, UPPER_PANEL_HEIGHT);
+    }
+
+    private void initMinimizeLabel() {
+        minimizeLabel = new JLabel("-");
+        minimizeLabel.setBounds(getWidth() - 60, 0, 30, UPPER_PANEL_HEIGHT);
+        minimizeLabel.setOpaque(true);
+        minimizeLabel.setBackground(Colors.SOFT_BLUE);
+        minimizeLabel.setHorizontalAlignment(SwingConstants.CENTER);
+        minimizeLabel.addMouseListener(new LabelsPainter());
+        minimizeLabel.addMouseListener(new FrameMinimizer(this));
+    }
+
+    private void initCloseLabel() {
+        closeLabel = new JLabel("X");
+        closeLabel.setBounds(getWidth() - 30, 0, 30, UPPER_PANEL_HEIGHT);
+        closeLabel.setOpaque(true);
+        closeLabel.setBackground(Colors.SOFT_BLUE);
+        closeLabel.setHorizontalAlignment(SwingConstants.CENTER);
+        closeLabel.addMouseListener(new LabelsPainter());
+    }
+
+    private void initUpperPanel() {
+        upperPanel = new JPanel();
         upperPanel.setLayout(null);
-        upperPanel.setBounds(0, 0, frameWidth, labelHeight);
+        upperPanel.setBounds(0, 0, getWidth(), UPPER_PANEL_HEIGHT);
         upperPanel.setBackground(Colors.SOFT_BLUE);
-        upperPanel.add(getHeaderLabel());
-        upperPanel.add(minimizeLabel());
-        upperPanel.add(getCloseLabel());
         upperPanel.addMouseListener(new FrameDragger(this));
+        upperPanel.add(headerLabel);
+        upperPanel.add(minimizeLabel);
+        upperPanel.add(closeLabel);
         add(upperPanel);
     }
-
-    private JLabel getHeaderLabel() {
-        JLabel label = new JLabel(frameName);
-        label.setBounds(10, 0, 100, labelHeight);
-        return label;
-    }
-
-    private JLabel minimizeLabel() {
-        JLabel label = new JLabel("-");
-        label.setBounds(frameWidth - 60, 0, 30, labelHeight);
-        label.setOpaque(true);
-        label.setBackground(Colors.SOFT_BLUE);
-        label.setHorizontalAlignment(SwingConstants.CENTER);
-        label.addMouseListener(new LabelsPainter());
-        label.addMouseListener(new FrameMinimizer(this));
-        return label;
-    }
-
-    private JLabel getCloseLabel() {
-        JLabel label = new JLabel("X");
-        label.setBounds(frameWidth - 30, 0, 30, labelHeight);
-        label.setOpaque(true);
-        label.setBackground(Colors.SOFT_BLUE);
-        label.setHorizontalAlignment(SwingConstants.CENTER);
-        label.addMouseListener(new LabelsPainter());
-        label.addMouseListener(new MouseAdapter() {
-            @Override
-            public void mouseClicked(MouseEvent e) {
-                closeAction();
-            }
-        });
-        return label;
-    }
-
-    public abstract void closeAction();
 
     public Component add(Component component) {
         contentPane.add(component);
         return component;
     }
 
-    @Override
-    public JPanel getContentPane() {
-        return this.contentPane;
+    public void setCloseAction(MouseAdapter action) {
+        closeLabel.addMouseListener(action);
     }
 
     class LabelsPainter extends MouseAdapter {

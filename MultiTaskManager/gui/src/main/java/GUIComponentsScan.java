@@ -5,8 +5,9 @@ import org.springframework.context.annotation.*;
         @ComponentScan ("login"),
         @ComponentScan ("components"),
         @ComponentScan("registration"),
-        @ComponentScan("work"),
-        @ComponentScan("utils")})
+        @ComponentScan("TODO"),
+        @ComponentScan("message"),
+        @ComponentScan("task")})
 public class GUIComponentsScan {
 
 }

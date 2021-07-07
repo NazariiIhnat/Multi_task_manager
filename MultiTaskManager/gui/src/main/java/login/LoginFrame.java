@@ -17,7 +17,6 @@ public class LoginFrame extends CustomFrame {
 
     public LoginFrame() {
         super("Login", 100, 100, 210, 132);
-        setTitle("Login");
         initNicknameTextField();
         initPasswordField();
         initLoginButton();
@@ -77,10 +76,5 @@ public class LoginFrame extends CustomFrame {
 
     public JButton getRegisterButton() {
         return registerButton;
-    }
-
-    @Override
-    public void closeAction() {
-        System.exit(0);
     }
 }

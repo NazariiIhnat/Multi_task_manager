@@ -1,7 +1,6 @@
 package components.custom.watermark;
 
-import components.Colors;
-
+import components.custom.Colors;
 import javax.swing.*;
 import java.awt.event.FocusEvent;
 

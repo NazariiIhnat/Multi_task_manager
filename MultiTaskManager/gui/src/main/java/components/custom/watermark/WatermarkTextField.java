@@ -1,6 +1,6 @@
 package components.custom.watermark;
 
-import components.Colors;
+import components.custom.Colors;
 
 import javax.swing.*;
 
@@ -16,15 +16,13 @@ public class WatermarkTextField extends JTextField {
     }
 
     public boolean isEmpty() {
-        return getText().split(" ").length == 0 || getText().equals(watermarkText);
+        return getText().split(" ").length == 0 |
+                getText().equals("") |
+                getText().equals(watermarkText) && getForeground().equals(Colors.WATERMARK_TEXT_COLOR);
     }
 
     public void clearInputAndSetWatermark() {
         setText(watermarkText);
         setForeground(Colors.WATERMARK_TEXT_COLOR);
-    }
-
-    public String getWatermarkText() {
-        return watermarkText;
     }
 }

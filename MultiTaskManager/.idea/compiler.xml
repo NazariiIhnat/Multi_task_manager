@@ -14,7 +14,7 @@
     <bytecodeTargetLevel>
       <module name="backend" target="8" />
       <module name="database" target="8" />
-      <module name="gui" target="8" />
+      <module name="gui" target="9" />
       <module name="joji" target="8" />
       <module name="Joji" target="8" />
     </bytecodeTargetLevel>

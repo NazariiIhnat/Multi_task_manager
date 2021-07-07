@@ -3,7 +3,6 @@ package registration;
 import components.custom.CustomFrame;
 import components.custom.watermark.WatermarkPasswordField;
 import components.custom.watermark.WatermarkTextField;
-import login.LoginFrame;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import javax.swing.*;
@@ -16,12 +15,10 @@ public class RegistrationFrame extends CustomFrame {
     private WatermarkPasswordField passwordField;
     private WatermarkPasswordField repeatPasswordField;
     private JButton okButton;
-    private LoginFrame loginFrame;
 
     @Autowired
-    RegistrationFrame(LoginFrame loginFrame) {
+    RegistrationFrame() {
         super("Registration", 100, 100, 210, 225);
-        this.loginFrame = loginFrame;
         initNameTextField();
         initSurnameTextField();
         initNicknameTextField();
@@ -80,29 +77,23 @@ public class RegistrationFrame extends CustomFrame {
         getContentPane().setFocusable(true);
     }
 
-    @Override
-    public void closeAction() {
-        dispose();
-        loginFrame.showFrame();
-    }
-
-    public JTextField getNameTextField() {
+    public WatermarkTextField getNameTextField() {
         return nameTextField;
     }
 
-    public JTextField getSurnameTextField() {
+    public WatermarkTextField getSurnameTextField() {
         return surnameTextField;
     }
 
-    public JTextField getNicknameTextField() {
+    public WatermarkTextField getNicknameTextField() {
         return nicknameTextField;
     }
 
-    public JPasswordField getPasswordField() {
+    public WatermarkPasswordField getPasswordField() {
         return passwordField;
     }
 
-    public JPasswordField getRepeatPasswordField() {
+    public WatermarkPasswordField getRepeatPasswordField() {
         return repeatPasswordField;
     }
 

@@ -4,8 +4,7 @@ import dao.UserDAO;
 import entities.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-import utils.InputVerifier;
-import utils.ShowMessage;
+import message.ShowMessage;
 
 @Component
 public class InputValidator {
@@ -32,19 +31,19 @@ public class InputValidator {
     }
 
     private boolean fieldsIsNotEmpty () {
-        if (InputVerifier.textComponentIsEmpty(frame.getNameTextField(), "Name")) {
+        if (frame.getNameTextField().isEmpty()) {
             ShowMessage.error("Name is empty");
             return false;
-        } else if (InputVerifier.textComponentIsEmpty(frame.getSurnameTextField(), "Surname")) {
+        } else if (frame.getSurnameTextField().isEmpty()) {
             ShowMessage.error("Surname is empty");
             return false;
-        } else if (InputVerifier.textComponentIsEmpty(frame.getNicknameTextField(), "Nickname")){
+        } else if (frame.getNicknameTextField().isEmpty()){
             ShowMessage.error("Nickname is empty");
             return false;
-        } else if (InputVerifier.textComponentIsEmpty(frame.getPasswordField(), "Password")) {
+        } else if (frame.getPasswordField().isEmpty()) {
             ShowMessage.error("Password is empty");
             return false;
-        } else if (InputVerifier.textComponentIsEmpty(frame.getRepeatPasswordField(), "Repeat password")) {
+        } else if (frame.getPasswordField().isEmpty()) {
             ShowMessage.error("Confirm your password");
             return false;
         } else {

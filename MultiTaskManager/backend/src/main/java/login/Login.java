@@ -4,10 +4,9 @@ import dao.UserDAO;
 import entities.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-import utils.ShowMessage;
-import utils.TableRefresher;
-import work.boss_mode.BossTaskMenageFrame;
-import work.main.MainFrame;
+import task.managment.TableRefresher;
+import message.ShowMessage;
+import task.managment.WorkFrame;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -15,12 +14,14 @@ import java.awt.event.ActionListener;
 public class Login implements ActionListener {
 
     private LoginFrame loginFrame;
-    private MainFrame mainFrame;
+    private WorkFrame workFrame;
+    private TableRefresher tableRefresher;
 
     @Autowired
-    public Login(LoginFrame loginFrame, MainFrame mainFrame) {
+    public Login(LoginFrame loginFrame, WorkFrame workFrame, TableRefresher tableRefresher) {
         this.loginFrame = loginFrame;
-        this.mainFrame = mainFrame;
+        this.workFrame = workFrame;
+        this.tableRefresher = tableRefresher;
         loginFrame.getLoginButton().addActionListener(this);
     }
 
@@ -47,16 +48,16 @@ public class Login implements ActionListener {
     }
 
     private void login(User user) {
-        MainFrame.setLoggedInUser(user);
-        TableRefresher.refreshOwnTaskTable();
+        WorkFrame.setLoggedInUser(user);
+        tableRefresher.refreshTable();
         loginFrame.setVisible(false);
-        mainFrame.setVisible(true);
+        workFrame.setVisible(true);
     }
 
     private void enableBossModeFunctionsIfLoggedInUSerISBoss() {
-        if(MainFrame.getLoggedInUser().isBoss())
-            BossTaskMenageFrame.setSendTaskItemEnabled(true);
+        if(WorkFrame.getLoggedInUser().isBoss())
+            workFrame.showBossModeFunctions();
         else
-            BossTaskMenageFrame.setSendTaskItemEnabled(false);
+            workFrame.hideBossModeFunctions();
     }
 }

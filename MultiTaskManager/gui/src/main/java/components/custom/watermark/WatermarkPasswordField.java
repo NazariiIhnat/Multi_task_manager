@@ -1,8 +1,9 @@
 package components.custom.watermark;
 
-import components.Colors;
+import components.custom.Colors;
 
 import javax.swing.*;
+import java.util.Arrays;
 
 public class WatermarkPasswordField extends JPasswordField {
 
@@ -18,11 +19,13 @@ public class WatermarkPasswordField extends JPasswordField {
 
     public void clearInputAndSetWatermark() {
         setEchoChar((char)0);
-        setText("Password");
+        setText(watermarkText);
         setForeground(Colors.WATERMARK_TEXT_COLOR);
     }
 
-    public String getWatermarkText() {
-        return watermarkText;
+    public boolean isEmpty() {
+        return getPassword().length == 0 |
+                Arrays.toString(getPassword()).equals(watermarkText)
+                && getForeground().equals(Colors.WATERMARK_TEXT_COLOR);
     }
 }

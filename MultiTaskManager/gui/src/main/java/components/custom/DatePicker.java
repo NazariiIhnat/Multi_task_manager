@@ -3,7 +3,6 @@ package components.custom;
 import com.github.lgooddatepicker.components.CalendarPanel;
 import com.github.lgooddatepicker.components.DatePickerSettings;
 import com.github.lgooddatepicker.optionalusertools.CalendarBorderProperties;
-import components.Colors;
 import org.springframework.stereotype.Component;
 
 import javax.swing.*;
@@ -29,13 +28,11 @@ public class DatePicker extends CalendarPanel {
         DateLabelsPainter dateLabelsPainter = new DateLabelsPainter();
         PopupMenuShowerOnSelectedDate popupMenuShower = new PopupMenuShowerOnSelectedDate();
         this.popupMenu = new JPopupMenu();
-
         DatePickerSettings settings = new DatePickerSettings();
         settings.setVisiblePreviousYearButton(false);
         settings.setVisiblePreviousMonthButton(false);
         settings.setVisibleNextYearButton(false);
         settings.setVisibleNextMonthButton(false);
-
         setBorder(new LineBorder(Colors.SOFT_BLUE));
         ArrayList<CalendarBorderProperties> borderProperties = new ArrayList<>();
         borderProperties.add(new CalendarBorderProperties(
@@ -45,7 +42,6 @@ public class DatePicker extends CalendarPanel {
         settings.setBorderPropertiesList(borderProperties);
         settings.setColor(DatePickerSettings.DateArea.CalendarBackgroundSelectedDate, Colors.HIGHLIGHT_COLOR);
         settings.setColor(DatePickerSettings.DateArea.CalendarBorderSelectedDate, Colors.HIGHLIGHT_COLOR);
-
         settings.setColorBackgroundWeekdayLabels(Colors.DARK_GRAY, false);
         settings.setColor(DatePickerSettings.DateArea.BackgroundOverallCalendarPanel, Colors.LIGHT_GRAY);
         settings.setColor(DatePickerSettings.DateArea.BackgroundMonthAndYearMenuLabels, Colors.LIGHT_GRAY);
@@ -58,19 +54,14 @@ public class DatePicker extends CalendarPanel {
         settings.setLocale(Locale.ENGLISH);
         settings.setFormatForTodayButton(DateTimeFormatter.ofPattern("dd-MM-yyyy"));
         drawCalendar();
-
         JLabel monthLabel = getMonthLabel();
         monthLabel.addMouseListener(exceptDateLabelsPainter);
-
         JLabel yearLabel = getYearLabel();
         yearLabel.addMouseListener(exceptDateLabelsPainter);
-
         JLabel todayLabel = getTodayLabel();
         todayLabel.addMouseListener(exceptDateLabelsPainter);
-
         JLabel clearLabel = getClearLabel();
         clearLabel.addMouseListener(exceptDateLabelsPainter);
-
         for(JLabel label : getDateLabels()) {
             label.addMouseListener(dateLabelsPainter);
             label.addMouseListener(popupMenuShower);
