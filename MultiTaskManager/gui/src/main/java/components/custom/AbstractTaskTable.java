@@ -18,6 +18,8 @@ public abstract class AbstractTaskTable extends JTable {
     public AbstractTaskTable() {
         taskTableScrollPane = new JScrollPane();
         taskTableScrollPane.setViewportView(this);
+
+        setAutoCreateRowSorter(true);
         addMouseListener(enableRowSelectionByClickingRMB());
         addMouseListener(showPopupMenuByClickingRMBOnTableRow());
         ToolTipManager.sharedInstance().setDismissDelay(Integer.MAX_VALUE);
@@ -78,11 +80,11 @@ public abstract class AbstractTaskTable extends JTable {
     }
 
     public Task getSelectedTask() {
-        int selectedRow = this.getSelectedRow();
+        int selectedRow = getSelectedRow();
         long selectedTaskID;
         try{
-            selectedTaskID = (long) this.getValueAt(selectedRow, 1);
-        } catch (ArrayIndexOutOfBoundsException e){
+            selectedTaskID = (long) getValueAt(selectedRow, 1);
+        } catch (IndexOutOfBoundsException e){
             selectedTaskID = -1;
         }
         if(selectedTaskID >= 0)
@@ -95,25 +97,22 @@ public abstract class AbstractTaskTable extends JTable {
     }
 
     protected TableModelListener getCheckBoxModeListener(int checkBoxColumn) {
-        return new TableModelListener() {
-            @Override
-            public void tableChanged(TableModelEvent e) {
-                int row = e.getFirstRow();
-                int column = e.getColumn();
-                int idColumn = 1;
-                if (column == checkBoxColumn) {
-                    TableModel model = (TableModel) e.getSource();
-                    Boolean checked = (Boolean) model.getValueAt(row, column);
-                    Task task;
-                    if (checked) {
-                        task = TaskDAO.getTaskByID((Long) model.getValueAt(row, idColumn));
-                        task.setDone(true);
-                        TaskDAO.saveOrUpdate(task);
-                    } else {
-                        task = TaskDAO.getTaskByID((Long) model.getValueAt(row, idColumn));
-                        task.setDone(false);
-                        TaskDAO.saveOrUpdate(task);
-                    }
+        return e -> {
+            int row = e.getFirstRow();
+            int column = e.getColumn();
+            int idColumn = 1;
+            if (column == checkBoxColumn) {
+                TableModel model = (TableModel) e.getSource();
+                Boolean checked = (Boolean) model.getValueAt(row, column);
+                Task task;
+                if (checked) {
+                    task = TaskDAO.getTaskByID((Long) model.getValueAt(row, idColumn));
+                    task.setDone(true);
+                    TaskDAO.saveOrUpdate(task);
+                } else {
+                    task = TaskDAO.getTaskByID((Long) model.getValueAt(row, idColumn));
+                    task.setDone(false);
+                    TaskDAO.saveOrUpdate(task);
                 }
             }
         };

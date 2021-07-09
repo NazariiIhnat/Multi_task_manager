@@ -1,78 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fbd34fb0-f408-4d0d-acf3-b0a293a93345" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/task/managment/TaskAdder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/task/managment/TaskUpdater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gui/src/main/java/task/managment/bossmode/BossModeFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="fbd34fb0-f408-4d0d-acf3-b0a293a93345" name="Default Changelist" comment="Table can be sorted ASC and DESC by slicking on table headers. Fixed bug of task deleting.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/BackendComponentsScan.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/BackendComponentsScan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/login/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/login/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/logout/Logout.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/logout/Logout.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/registration/InputValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/registration/InputValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/registration/Registration.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/registration/Registration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/registration/ShowRegistrationFrameAction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/gui.iml" beforeDir="false" afterPath="$PROJECT_DIR$/gui/gui.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gui/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/src/main/java/GUIComponentsScan.java" beforeDir="false" afterPath="$PROJECT_DIR$/gui/src/main/java/GUIComponentsScan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/src/main/java/components/Colors.java" beforeDir="false" afterPath="$PROJECT_DIR$/gui/src/main/java/components/custom/Colors.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gui/src/main/java/components/custom/AbstractTaskTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/gui/src/main/java/components/custom/AbstractTaskTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/src/main/java/components/custom/Closeable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/src/main/java/components/custom/CustomFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/gui/src/main/java/components/custom/CustomFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/src/main/java/components/custom/DatePicker.java" beforeDir="false" afterPath="$PROJECT_DIR$/gui/src/main/java/components/custom/DatePicker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/src/main/java/components/custom/TablePopupMenuShower.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/src/main/java/components/custom/UpdateFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/gui/src/main/java/components/custom/TaskUpdateFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/src/main/java/components/custom/watermark/PasswordWatermarker.java" beforeDir="false" afterPath="$PROJECT_DIR$/gui/src/main/java/components/custom/watermark/PasswordWatermarker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/src/main/java/components/custom/watermark/WatermarkPasswordField.java" beforeDir="false" afterPath="$PROJECT_DIR$/gui/src/main/java/components/custom/watermark/WatermarkPasswordField.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/src/main/java/components/custom/watermark/WatermarkTextArea.java" beforeDir="false" afterPath="$PROJECT_DIR$/gui/src/main/java/components/custom/watermark/WatermarkTextArea.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/src/main/java/components/custom/watermark/WatermarkTextField.java" beforeDir="false" afterPath="$PROJECT_DIR$/gui/src/main/java/components/custom/watermark/WatermarkTextField.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/src/main/java/components/custom/watermark/Watermarker.java" beforeDir="false" afterPath="$PROJECT_DIR$/gui/src/main/java/components/custom/watermark/Watermarker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/src/main/java/login/LoginFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/gui/src/main/java/login/LoginFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/src/main/java/registration/RegistrationFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/gui/src/main/java/registration/RegistrationFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/src/main/java/test/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/src/main/java/utils/InputVerifier.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/src/main/java/utils/ShowMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/gui/src/main/java/message/ShowMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/src/main/java/utils/TableRefresher.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/src/main/java/work/boss_mode/BossModeEnabler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/src/main/java/work/boss_mode/BossModeTaskTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/gui/src/main/java/task/managment/bossmode/BossModeTaskTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/src/main/java/work/boss_mode/BossTaskMenageFrame.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/src/main/java/work/boss_mode/delete/TaskDeleter.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/task/managment/bossmode/TaskDeleter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/src/main/java/work/boss_mode/send/SendTaskFrame.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/src/main/java/work/boss_mode/send/TaskSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/task/managment/bossmode/TaskSender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/src/main/java/work/boss_mode/update/TaskUpdater.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/src/main/java/work/main/MainFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/gui/src/main/java/task/managment/WorkFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/src/main/java/work/main/OwnTaskTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/gui/src/main/java/task/managment/TaskManageTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/src/main/java/work/main/add/TaskAddFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/gui/src/main/java/task/managment/TaskAddFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/src/main/java/work/main/add/TaskAdder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/src/main/java/work/main/delete/TaskDeleter.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/task/managment/TaskDeleter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/src/main/java/work/main/update/TaskUpdater.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/MultiTaskManager-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Configs.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/Joji.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/login/ShowRegistrationFrameAction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/logout/Logout$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/logout/Logout.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/registration/RegistrationAction$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/registration/RegistrationAction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/registration/RegistrationFrame.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/registration/validation/InputValidator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/ShowMessage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/work/boss_mode/delete/TaskDeleter$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/work/boss_mode/delete/TaskDeleter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/work/boss_mode/send/TaskSender$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/work/boss_mode/send/TaskSender$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/work/boss_mode/send/TaskSender.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/work/main/delete/TaskDeleter$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/work/main/delete/TaskDeleter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/original-MultiTaskManager-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/src/main/java/task/managment/TaskManageTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/gui/src/main/java/task/managment/TaskManageTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/src/main/java/task/managment/bossmode/BossModeTaskTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/gui/src/main/java/task/managment/bossmode/BossModeTaskTable.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -104,129 +37,110 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/backend/src/main/java/task/managment/FramesCloser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-25">
-              <caret line="66" column="26" selection-start-line="66" selection-start-column="26" selection-end-line="66" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/src/main/java/task/managment/bossmode/TaskSender.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="706">
-              <caret line="68" column="67" selection-start-line="68" selection-start-column="67" selection-end-line="68" selection-end-column="67" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/src/main/java/task/managment/bossmode/TaskUpdater.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="79" column="4" selection-start-line="79" selection-start-column="4" selection-end-line="79" selection-end-column="4" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1657#2360#0" expanded="true" />
-                <element signature="e#2359#2360#0" expanded="true" />
-                <element signature="e#3072#3073#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/src/main/java/task/managment/bossmode/UsersAndTasksLoader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-667">
-              <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/src/main/java/task/managment/DescriptionTextAreaRefresher.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-272">
-              <caret line="23" column="97" selection-start-line="23" selection-start-column="97" selection-end-line="23" selection-end-column="97" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/src/main/java/logout/Logout.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="61">
-              <caret line="22" column="70" selection-start-line="22" selection-start-column="70" selection-end-line="22" selection-end-column="70" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/src/main/java/login/Login.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="60" column="46" selection-start-line="60" selection-start-column="46" selection-end-line="60" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/src/main/java/task/managment/bossmode/BossModeEnabler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="47">
-              <caret line="74" column="42" selection-start-line="74" selection-start-column="42" selection-end-line="74" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/src/main/java/task/managment/bossmode/TaskDeleter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="35" column="92" selection-start-line="35" selection-start-column="92" selection-end-line="35" selection-end-column="92" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gui/src/main/java/task/managment/WorkFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="60" column="47" selection-start-line="60" selection-start-column="47" selection-end-line="60" selection-end-column="47" />
+            <state relative-caret-position="126">
+              <caret line="76" selection-start-line="76" selection-end-line="76" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1746#1747#0" expanded="true" />
-                <element signature="e#1801#1802#0" expanded="true" />
-                <element signature="e#1846#1847#0" expanded="true" />
-                <element signature="e#1902#1903#0" expanded="true" />
+                <element signature="e#2232#2233#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gui/src/main/java/components/custom/AbstractTaskTable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="139">
+              <caret line="100" column="12" selection-start-line="100" selection-start-column="12" selection-end-line="100" selection-end-column="12" />
+              <folding>
+                <element signature="e#1866#1867#0" expanded="true" />
+                <element signature="e#1911#1912#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gui/src/main/java/task/managment/TaskManageTable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gui/src/main/java/task/managment/bossmode/BossModeTaskTable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1889#1890#0" expanded="true" />
+                <element signature="e#1922#1923#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk-11.0.10/lib/src.zip!/java.desktop/javax/swing/JTable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="1853" column="16" selection-start-line="1853" selection-start-column="16" selection-end-line="1853" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/src/main/java/dao/TaskDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
+              <folding>
+                <element signature="e#0#84#1" expanded="true" />
+                <element signature="e#0#64#1" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/src/main/java/dao/AbstractEntitiesDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="183">
+              <caret line="80" selection-start-line="80" selection-end-line="80" />
+              <folding>
+                <element signature="e#0#44#0" expanded="true" />
+                <element signature="e#0#44#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/src/main/java/task/managment/TaskDeleter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="99">
+              <caret line="37" selection-start-line="37" selection-end-line="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1002#1386#0" expanded="true" />
+                <element signature="e#1385#1386#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/src/main/java/task/managment/TableRefresher.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="337">
+              <caret line="55" selection-start-line="55" selection-end-line="55" />
             </state>
           </provider>
         </entry>
@@ -271,16 +185,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/gui/src/main/java/components/custom/UpdateFrame.java" />
-        <option value="$PROJECT_DIR$/backend/src/main/java/task/managment/update/FrameCloser.java" />
-        <option value="$PROJECT_DIR$/backend/src/main/java/task/managment/update/TaskUpdater.java" />
-        <option value="$PROJECT_DIR$/gui/src/main/java/TODO/main/delete/TaskDeleter.java" />
-        <option value="$PROJECT_DIR$/backend/src/main/java/task/managment/delete/TaskDeleter.java" />
         <option value="$PROJECT_DIR$/gui/src/main/java/GUIComponentsScan.java" />
         <option value="$PROJECT_DIR$/gui/src/main/java/task/managment/bossmode/EnableBossModeFrame.java" />
         <option value="$PROJECT_DIR$/backend/src/main/java/task/managment/bossmode/FrameCloser.java" />
         <option value="$PROJECT_DIR$/gui/src/main/java/TODO/boss_mode/BossModeEnabler.java" />
-        <option value="$PROJECT_DIR$/gui/src/main/java/task/managment/bossmode/BossModeTaskTable.java" />
         <option value="$PROJECT_DIR$/gui/src/main/java/TODO/boss_mode/BossTaskMenageFrame.java" />
         <option value="$PROJECT_DIR$/gui/src/main/java/TODO/boss_mode/send/SendTaskFrame.java" />
         <option value="$PROJECT_DIR$/gui/src/main/java/TODO/boss_mode/send/TaskSender.java" />
@@ -318,10 +226,16 @@
         <option value="$PROJECT_DIR$/backend/src/main/java/task/managment/FramesCloser.java" />
         <option value="$PROJECT_DIR$/backend/src/main/java/logout/Logout.java" />
         <option value="$PROJECT_DIR$/backend/src/main/java/login/BossModeFunctionsEnabler.java" />
-        <option value="$PROJECT_DIR$/gui/src/main/java/task/managment/WorkFrame.java" />
         <option value="$PROJECT_DIR$/backend/src/main/java/login/Login.java" />
         <option value="$PROJECT_DIR$/backend/src/main/java/task/managment/bossmode/BossModeEnabler.java" />
         <option value="$PROJECT_DIR$/backend/src/main/java/task/managment/bossmode/UsersAndTasksLoader.java" />
+        <option value="$PROJECT_DIR$/gui/src/main/java/SearchRender.java" />
+        <option value="$PROJECT_DIR$/gui/src/main/java/task/managment/SortRender.java" />
+        <option value="$PROJECT_DIR$/gui/src/main/java/task/managment/KeepSortIconHeaderRenderer.java" />
+        <option value="$PROJECT_DIR$/gui/src/main/java/task/managment/WorkFrame.java" />
+        <option value="$PROJECT_DIR$/gui/src/main/java/task/managment/TaskManageTable.java" />
+        <option value="$PROJECT_DIR$/gui/src/main/java/task/managment/bossmode/BossModeTaskTable.java" />
+        <option value="$PROJECT_DIR$/gui/src/main/java/components/custom/AbstractTaskTable.java" />
       </list>
     </option>
   </component>
@@ -418,16 +332,6 @@
             <path>
               <item name="MultiTaskManager" type="b2602c69:ProjectViewProjectNode" />
               <item name="MultiTaskManager" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="managment" type="462c0819:PsiDirectoryNode" />
-              <item name="bossmode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MultiTaskManager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MultiTaskManager" type="462c0819:PsiDirectoryNode" />
               <item name="gui" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -450,6 +354,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MultiTaskManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MultiTaskManager" type="462c0819:PsiDirectoryNode" />
+              <item name="gui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="custom" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MultiTaskManager" type="b2602c69:ProjectViewProjectNode" />
@@ -669,9 +582,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Start" />
+        <item itemvalue="Application.WorkFrame" />
         <item itemvalue="Application.WatermarkPasswordField" />
         <item itemvalue="Application.TaskAddFrame" />
-        <item itemvalue="Application.WorkFrame" />
         <item itemvalue="Application.Test (2)" />
       </list>
     </recent_temporary>
@@ -850,7 +763,9 @@
       <workItem from="1625502012245" duration="1904000" />
       <workItem from="1625546607499" duration="1571000" />
       <workItem from="1625587499069" duration="3557000" />
-      <workItem from="1625631468082" duration="2417000" />
+      <workItem from="1625631468082" duration="2650000" />
+      <workItem from="1625678119092" duration="5753000" />
+      <workItem from="1625805107024" duration="1746000" />
     </task>
     <task id="LOCAL-00001" summary="Created gui and backend modules. All classes from root module moved to &#10;gui module. Separated gui and backend of registration and login to gui &#10;and backend modules.">
       <created>1624221548451</created>
@@ -866,11 +781,25 @@
       <option name="project" value="LOCAL" />
       <updated>1624221788933</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Separated frontend from backend.">
+      <created>1625634043908</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1625634043908</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Separated frontend from backend.">
+      <created>1625634151975</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1625634151975</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="612152000" />
+    <option name="totallyTimeSpent" value="619884000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -883,9 +812,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35854766" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3698941" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -896,19 +824,19 @@
       <window_info anchor="bottom" id="JFormDesigner Error Log" order="0" weight="0.18035427" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32850242" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49924356" visible="true" weight="0.34299517" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49924356" weight="0.34299517" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4009662" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" sideWeight="0.49924356" weight="0.32850242" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5015129" side_tool="true" weight="0.3542673" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50226927" side_tool="true" weight="0.3542673" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4977307" weight="0.32850242" />
       <window_info anchor="bottom" id="Spring" order="12" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" sideWeight="0.64977306" weight="0.32850242" />
       <window_info anchor="bottom" id="Version Control" order="14" sideWeight="0.49924356" weight="0.32850242" />
-      <window_info anchor="bottom" id="Messages" order="15" sideWeight="0.49848714" weight="0.3542673" />
+      <window_info active="true" anchor="bottom" id="Messages" order="15" sideWeight="0.4977307" visible="true" weight="0.3542673" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" visible="true" weight="0.022692889" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1005,111 +933,30 @@
     <MESSAGE value="Created gui and backend modules. Separated gui and backend of &#10;registration and login to gui and backend modules." />
     <MESSAGE value="Created gui and backend modules. All classes from root module moved to &#10;gui module. Separated gui and backend of registration and login to gui &#10;and backend modules." />
     <MESSAGE value="Forgot to add this file to previous commit." />
-    <option name="LAST_COMMIT_MESSAGE" value="Forgot to add this file to previous commit." />
+    <MESSAGE value="Separated frontend from backend." />
+    <MESSAGE value="Table can be sorted ASC and DES by slicking on table headers. Fixed bug of task deleting." />
+    <MESSAGE value="Table can be sorted ASC and DESC by slicking on table headers. Fixed bug of task deleting." />
+    <option name="LAST_COMMIT_MESSAGE" value="Table can be sorted ASC and DESC by slicking on table headers. Fixed bug of task deleting." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/backend/src/main/java/task/managment/TaskDeleter.java</url>
+          <line>34</line>
+          <properties method="actionPerformed">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/gui/src/main/java/task/managment/bossmode/BossModeComponents.java" />
-    <entry file="file://$PROJECT_DIR$/backend/src/main/java/task/managment/bossmode/BossModeEnableFrameCloser.java" />
-    <entry file="file://$PROJECT_DIR$/backend/src/main/java/task/managment/bossmode/BossModeFrameCloser.java" />
-    <entry file="file://$PROJECT_DIR$/backend/src/main/java/task/managment/TableRefresher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="47" column="35" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2537#2538#0" expanded="true" />
-            <element signature="e#2577#2578#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gui/src/main/java/TODO/boss_mode/BossTaskMenageFrame.java" />
-    <entry file="file://$PROJECT_DIR$/gui/src/main/java/TODO/boss_mode/send/SendTaskFrame.java" />
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.10/lib/src.zip!/java.desktop/javax/swing/table/DefaultTableModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="469" column="8" selection-start-line="469" selection-start-column="8" selection-end-line="469" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/main/java/task/managment/bossmode/TableRefresher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gui/src/main/java/task/managment/bossmode/BossModeTaskTable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gui/src/main/java/task/managment/bossmode/TaskSendFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="57" column="16" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gui/src/main/java/task/managment/bossmode/BossModeFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gui/src/main/java/task/managment/TaskAddFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gui/src/main/java/task/managment/bossmode/TaskUpdater.java" />
-    <entry file="file://$PROJECT_DIR$/gui/src/main/java/components/custom/AbstractTaskTable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-143">
-          <caret line="76" column="36" lean-forward="true" selection-start-line="76" selection-start-column="36" selection-end-line="76" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gui/src/main/java/components/custom/CustomFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-701">
-          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gui/src/main/java/components/custom/DatePicker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1534">
-          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gui/src/main/java/components/custom/TablePopupMenuShower.java" />
-    <entry file="file://$PROJECT_DIR$/gui/src/main/java/utils/InputVerifier.java" />
     <entry file="file://$PROJECT_DIR$/gui/src/main/java/utils/TableRefresher.java" />
     <entry file="file://$PROJECT_DIR$/gui/src/main/java/message/ShowMessage.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1119,16 +966,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/src/main/java/login/FrameCloser.java" />
-    <entry file="file://$PROJECT_DIR$/gui/src/main/java/task/managment/TaskManageTable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-755">
-          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gui/src/main/java/task/managment/Menu.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -1137,16 +974,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/src/main/java/task/managment/add/FrameCloser.java" />
-    <entry file="file://$PROJECT_DIR$/backend/src/main/java/task/managment/TaskDeleter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backend/src/main/java/task/managment/bossmode/FramesCloser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -1289,6 +1116,56 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/main/java/login/BossModeFunctionsEnabler.java" />
+    <entry file="file://$PROJECT_DIR$/backend/src/main/java/task/managment/FramesCloser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="66" column="26" selection-start-line="66" selection-start-column="26" selection-end-line="66" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/main/java/task/managment/bossmode/TaskSender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="68" column="67" selection-start-line="68" selection-start-column="67" selection-end-line="68" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/main/java/login/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="60" column="46" selection-start-line="60" selection-start-column="46" selection-end-line="60" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.10/lib/src.zip!/java.desktop/javax/swing/table/TableCellRenderer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-762">
+          <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/main/java/task/managment/bossmode/TaskUpdater.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="79" column="4" selection-start-line="79" selection-start-column="4" selection-end-line="79" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3034#3035#0" expanded="true" />
+            <element signature="e#3072#3073#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/backend/src/main/java/logout/Logout.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="61">
@@ -1299,46 +1176,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/main/java/login/BossModeFunctionsEnabler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#246#247#0" expanded="true" />
-            <element signature="e#288#289#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gui/src/main/java/task/managment/WorkFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="60" column="47" selection-start-line="60" selection-start-column="47" selection-end-line="60" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1746#1747#0" expanded="true" />
-            <element signature="e#1801#1802#0" expanded="true" />
-            <element signature="e#1846#1847#0" expanded="true" />
-            <element signature="e#1902#1903#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/main/java/login/Login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="60" column="46" selection-start-line="60" selection-start-column="46" selection-end-line="60" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backend/src/main/java/task/managment/bossmode/BossModeEnabler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="47">
+        <state relative-caret-position="74">
           <caret line="74" column="42" selection-start-line="74" selection-start-column="42" selection-end-line="74" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui/src/main/java/SearchRender.java" />
+    <entry file="file://$PROJECT_DIR$/gui/src/main/java/task/managment/SortRender.java" />
+    <entry file="file://$PROJECT_DIR$/gui/src/main/java/task/managment/KeepSortIconHeaderRenderer.java" />
+    <entry file="file://$PROJECT_DIR$/backend/src/main/java/task/managment/bossmode/UsersAndTasksLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="70" column="71" selection-start-line="70" selection-start-column="71" selection-end-line="70" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.2.RELEASE/spring-beans-5.2.2.RELEASE.jar!/org/springframework/beans/factory/support/SimpleInstantiationStrategy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="77" selection-start-line="77" selection-end-line="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.2.RELEASE/spring-beans-5.2.2.RELEASE.jar!/org/springframework/beans/factory/support/ConstructorResolver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="218" selection-start-line="218" selection-end-line="218" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.2.RELEASE/spring-beans-5.2.2.RELEASE.jar!/org/springframework/beans/BeanUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="111" selection-start-line="111" selection-end-line="111" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/main/java/task/managment/DescriptionTextAreaRefresher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/main/java/task/managment/bossmode/TableRefresher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1355,53 +1250,118 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/main/java/task/managment/bossmode/TaskSender.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.2.RELEASE/spring-beans-5.2.2.RELEASE.jar!/org/springframework/beans/factory/support/DefaultSingletonBeanRegistry.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="706">
-          <caret line="68" column="67" selection-start-line="68" selection-start-column="67" selection-end-line="68" selection-end-column="67" />
+        <state relative-caret-position="116">
+          <caret line="147" selection-start-line="147" selection-end-line="147" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.2.RELEASE/spring-beans-5.2.2.RELEASE.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="186" selection-start-line="186" selection-end-line="186" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.2.RELEASE/spring-beans-5.2.2.RELEASE.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="324" selection-start-line="324" selection-end-line="324" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/src/main/java/dao/AbstractEntitiesDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="80" selection-start-line="80" selection-end-line="80" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#0#44#0" expanded="true" />
+            <element signature="e#0#44#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/main/java/task/managment/bossmode/TaskUpdater.java">
+    <entry file="file://$PROJECT_DIR$/database/src/main/java/dao/TaskDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="79" column="4" selection-start-line="79" selection-start-column="4" selection-end-line="79" selection-end-column="4" />
+        <state relative-caret-position="255">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1657#2360#0" expanded="true" />
-            <element signature="e#2359#2360#0" expanded="true" />
-            <element signature="e#3072#3073#0" expanded="true" />
+            <element signature="e#0#84#1" expanded="true" />
+            <element signature="e#0#64#1" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/main/java/task/managment/bossmode/UsersAndTasksLoader.java">
+    <entry file="file://$PROJECT_DIR$/backend/src/main/java/task/managment/TaskDeleter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-667">
-          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+        <state relative-caret-position="99">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1002#1386#0" expanded="true" />
+            <element signature="e#1385#1386#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/main/java/task/managment/DescriptionTextAreaRefresher.java">
+    <entry file="file://$PROJECT_DIR$/gui/src/main/java/task/managment/WorkFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-272">
-          <caret line="23" column="97" selection-start-line="23" selection-start-column="97" selection-end-line="23" selection-end-column="97" />
+        <state relative-caret-position="126">
+          <caret line="76" selection-start-line="76" selection-end-line="76" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2232#2233#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/main/java/task/managment/FramesCloser.java">
+    <entry file="file://$PROJECT_DIR$/backend/src/main/java/task/managment/TableRefresher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-25">
-          <caret line="66" column="26" selection-start-line="66" selection-start-column="26" selection-end-line="66" selection-end-column="26" />
+        <state relative-caret-position="337">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.10/lib/src.zip!/java.desktop/javax/swing/JTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="1853" column="16" selection-start-line="1853" selection-start-column="16" selection-end-line="1853" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.10/lib/src.zip!/java.base/java/lang/ArrayIndexOutOfBoundsException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui/src/main/java/components/custom/AbstractTaskTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="100" column="12" selection-start-line="100" selection-start-column="12" selection-end-line="100" selection-end-column="12" />
+          <folding>
+            <element signature="e#1866#1867#0" expanded="true" />
+            <element signature="e#1911#1912#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui/src/main/java/task/managment/bossmode/BossModeTaskTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1889#1890#0" expanded="true" />
+            <element signature="e#1922#1923#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui/src/main/java/task/managment/TaskManageTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

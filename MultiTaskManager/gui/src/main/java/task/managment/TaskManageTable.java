@@ -22,7 +22,7 @@ public class TaskManageTable extends AbstractTaskTable implements TableModelList
     private JPopupMenu popupMenu;
     private JScrollPane scrollPane;
 
-    public TaskManageTable() {
+     TaskManageTable() {
         super();
         initTaskTable();
     }
@@ -37,21 +37,21 @@ public class TaskManageTable extends AbstractTaskTable implements TableModelList
             }
         });
         TableColumnModel cm = getColumnModel();
-        cm.getColumn(0).setPreferredWidth(30);
-        cm.getColumn(0).setMinWidth(30);
-        cm.getColumn(0).setMaxWidth(39);
-        cm.getColumn(1).setPreferredWidth(30);
-        cm.getColumn(1).setMinWidth(30);
-        cm.getColumn(1).setMaxWidth(39);
-        cm.getColumn(2).setPreferredWidth(280);
+        cm.getColumn(0).setPreferredWidth(35);
+        cm.getColumn(0).setMinWidth(35);
+        cm.getColumn(0).setMaxWidth(44);
+        cm.getColumn(1).setPreferredWidth(35);
+        cm.getColumn(1).setMinWidth(35);
+        cm.getColumn(1).setMaxWidth(44);
+        cm.getColumn(2).setPreferredWidth(255);
         cm.getColumn(2).setMinWidth(30);
         cm.getColumn(2).setMaxWidth(380);
         cm.getColumn(3).setPreferredWidth(80);
         cm.getColumn(3).setMinWidth(44);
         cm.getColumn(3).setMaxWidth(120);
-        cm.getColumn(4).setPreferredWidth(41);
-        cm.getColumn(4).setMinWidth(41);
-        cm.getColumn(4).setMaxWidth(41);
+        cm.getColumn(4).setPreferredWidth(56);
+        cm.getColumn(4).setMinWidth(56);
+        cm.getColumn(4).setMaxWidth(56);
         getModel().addTableModelListener(getCheckBoxModeListener(4));
         scrollPane = new JScrollPane();
         scrollPane.setViewportView(this);
